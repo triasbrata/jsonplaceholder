@@ -1,0 +1,223 @@
+{
+	"stores": [{
+		"id": 1,
+		"name": "J. Co Indonesia",
+		"address": "Jl. Pangeran Untung Suropati No. 8 Sungai Kunjang",
+		"city": "Samarinda",
+		"background": "http://www.jcodonuts.com/assets/img/location.jpg",
+		"logo": "http://www.jcodonuts.com/assets/img/logo.png",
+		"operation": {
+			"open": "10:00",
+			"close": "20:00"
+		}
+	}, {
+		"id": 2,
+		"name": "Geprek Express",
+		"address": "Jl. Siradj salman Ruko Grand Mahakam F11",
+		"background": "https://scontent-sit4-1.xx.fbcdn.net/v/t1.0-9/12565528_1554937241492756_100713153875943262_n.jpg?oh=9df9d5e688778f5addc73571e605a859&oe=581E5F32",
+		"logo": "https://scontent-sit4-1.xx.fbcdn.net/v/t1.0-9/12360075_1533563803630100_4138941456267531257_n.jpg?oh=1e02243dd28e270e11b75732ced29d70&oe=585B64AF",
+		"city": "Samarinda",
+		"operation": {
+			"open": "10:00",
+			"close": "20:00"
+		}
+	}, {
+		"id": 3,
+		"name": "Dunkin' Donuts",
+		"address": "Jl. Jendral Sudirman, Klandasan Ulu Ground Floor G-6",
+		"background": "https://d5y2y5rl4e57i.cloudfront.net/dunkin-donuts-2-img-donuts-1200x500.jpg",
+		"logo": "http://logodatabases.com/wp-content/uploads/2012/02/dunkin-donuts-logo-wallpaper.jpg",
+		"city": "Balikpapan",
+		"operation": {
+			"open": "10:00",
+			"close": "20:00"
+		}
+	}, {
+		"id": 4,
+		"name": "Starbucks Coffe",
+		"address": " BIG Mall, Jl. Untung Suropati No.8",
+		"background": "http://www.starbucks.co.id/media/featured-bev-summer2-2016_tcm33-15215_w1024_n.jpg",
+		"logo": "https://s-media-cache-ak0.pinimg.com/736x/4e/fd/63/4efd639b2a39669e26d91d6ebb907e46.jpg",
+		"city": "Samarinda",
+		"operation": {
+			"open": "10:00",
+			"close": "20:00"
+		}
+	}, {
+		"id": 5,
+		"name": "Double Dipps Samarinda",
+		"address": "Alaya Junction LC-12.",
+		"background": "http://i2.wp.com/undas.co/wp-content/uploads/2015/12/dda.jpg?w=600",
+		"logo": "http://www.doubledipps.co.id/images/header/logo.png",
+		"city": "Samarinda",
+		"operation": {
+			"open": "10:00",
+			"close": "20:00"
+		}
+	}],
+	"foods": [{
+		"storeId": 1,
+		"id": 1,
+		"name": "J.Co Donuts 1 Lusin",
+		"price": 78000,
+		"image": {
+			"preview": "http://www.jcodonuts.com/assets/img/products/cover.jpg",
+			"slide": [
+				"http://www.jcodonuts.com/assets/img/products/donuts/al_capone2.jpg",
+				"http://www.jcodonuts.com/assets/img/products/donuts/avocado_dicaprio.jpg",
+				"http://www.jcodonuts.com/assets/img/products/donuts/berry_spears.jpg",
+				"http://www.jcodonuts.com/assets/img/products/donuts/blueberry_more.jpg"
+			]
+		},
+		"userlike": [{
+			"userId": 1
+		}, {
+			"userId": 2
+		}, {
+			"userId": 3
+		}, {
+			"userId": 4
+		}, {
+			"userId": 5
+		}]
+	}, {
+		"storeId": 1,
+		"id": 2,
+		"name": "J.Co Donuts 1/2 Lusin",
+		"price": 45000,
+		"image": {
+			"preview": "http://www.jcodonuts.com/assets/img/products/cover.jpg",
+			"slide": [
+				"http://www.jcodonuts.com/assets/img/products/donuts/al_capone2.jpg",
+				"http://www.jcodonuts.com/assets/img/products/donuts/avocado_dicaprio.jpg",
+				"http://www.jcodonuts.com/assets/img/products/donuts/berry_spears.jpg",
+				"http://www.jcodonuts.com/assets/img/products/donuts/blueberry_more.jpg"
+			]
+		},
+		"userlike": [{
+			"userId": 1
+		}, {
+			"userId": 4
+		}, {
+			"userId": 5
+		}]
+	}, {
+		"storeId": 2,
+		"id": 3,
+		"name": "Ayam Geprek Pedas",
+		"price": 12000,
+		"image": {
+			"preview": "https://scontent-sit4-1.xx.fbcdn.net/v/t1.0-9/12592714_1558364471150033_8562703240352552614_n.jpg?oh=174d075878788b30ea94b1c4eca17006&oe=582B5F9A",
+			"slide": [
+				"https://scontent-sit4-1.xx.fbcdn.net/v/t1.0-9/12553085_1552047861781694_2971780876850455747_n.jpg?oh=259f8e59079eda8d8c72522b73d98038&oe=58587F24",
+				"https://scontent-sit4-1.xx.fbcdn.net/v/t1.0-9/10259324_1539418333044647_3898242192133015952_n.jpg?oh=74a56aceaa328ce1a00dd83a025cc588&oe=585F0669"
+			]
+		},
+		"userlike": [{
+			"userId": 1
+		}, {
+			"userId": 2
+		}, {
+			"userId": 4
+		}, {
+			"userId": 5
+		}]
+	}, {
+		"storeId": 4,
+		"id": 4,
+		"name": "Smoked Beef Mushroom Panini",
+		"price": 78000,
+		"image": {
+			"preview": "http://www.starbucks.co.id/media/food-smoked-beef-mushroom-panini_tcm33-10072_w1024_n.jpg",
+			"slide": [
+				"http://www.starbucks.co.id/media/food-smoked-beef-mushroom-panini_tcm33-10072_w1024_n.jpg"
+			]
+		},
+		"userlike": [{
+			"userId": 1
+		}, {
+			"userId": 2
+		}, {
+			"userId": 5
+		}]
+	}, {
+		"storeId": 3,
+		"id": 5,
+		"name": "DD Donuts 1/2 Lusin",
+		"price": 45000,
+		"image": {
+			"preview": "http://www.dunkindonuts.co.id/image/product/donuts/donuts_caramel.jpg",
+			"slide": [
+				"http://www.dunkindonuts.co.id/image/product/donuts/donuts_peanut.jpg",
+				"http://www.dunkindonuts.co.id/image/product/donuts/donuts_ricesingle.jpg",
+				"http://www.dunkindonuts.co.id/image/product/donuts/donuts_smiley.jpg",
+				"http://www.dunkindonuts.co.id/image/product/donuts/tiramisu_square.jpg"
+			]
+		},
+		"userlike": [{
+			"userId": 1
+		}, {
+			"userId": 2
+		}, {
+			"userId": 3
+		}]
+	}, {
+		"storeId": 3,
+		"id": 6,
+		"name": "Mochi Rings 1 Lusin",
+		"price": 85000,
+		"image": {
+			"preview": "http://www.dunkindonuts.co.id/image/product/mochi/mochi_caramel.jpg",
+			"slide": [
+				"http://www.dunkindonuts.co.id/image/product/mochi/mochi_cheese.jpg",
+				"http://www.dunkindonuts.co.id/image/product/mochi/mochi_chocolate.jpg",
+				"http://www.dunkindonuts.co.id/image/product/mochi/mochi_original.jpg",
+				"http://www.dunkindonuts.co.id/image/product/mochi/mochi_strawberry.jpg"
+			]
+		},
+		"userlike": [{
+			"userId": 1
+		}, {
+			"userId": 2
+		}, {
+			"userId": 5
+		}]
+	}, {
+		"storeId": 3,
+		"id": 7,
+		"name": "BS Beef Pastrami",
+		"price": 85000,
+		"image": {
+			"preview": "http://www.dunkindonuts.co.id/image/product/sandwich/BS_beefpastrami.jpg",
+			"slide": [
+				"http://www.dunkindonuts.co.id/image/product/sandwich/BS_burger.jpg",
+				"http://www.dunkindonuts.co.id/image/product/sandwich/BS_chicken.jpg",
+				"http://www.dunkindonuts.co.id/image/product/sandwich/BS_egg.jpg",
+				"http://www.dunkindonuts.co.id/image/product/sandwich/BS_roastbeef.jpg"
+			]
+		},
+		"userlike": [{
+			"userId": 1
+		}, {
+			"userId": 2
+		}, {
+			"userId": 5
+		}]
+	}, {
+		"storeId": 5,
+		"id": 8,
+		"name": "Double Dipps Donut's",
+		"price": 85000,
+		"image": {
+			"preview": "http://www.doubledipps.co.id/images/menu/donut/menu.jpg",
+			"slide": [
+				"http://www.doubledipps.co.id/images/menu/donut/menu.jpg"
+			]
+		},
+		"userlike": [{
+			"userId": 4
+		}, {
+			"userId": 5
+		}]
+	}]
+}
